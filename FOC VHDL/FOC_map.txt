@@ -1,0 +1,34 @@
+ --> FOC_pkg
+FOC/CurrentController/Decoupling/nfp_uminus_double --> nfp_uminus_double
+FOC/CurrentController/nfp_convert_single2double --> nfp_convert_single2double
+FOC/CurrentController/Decoupling/nfp_mul_double --> nfp_mul_double
+FOC/CurrentController/nfp_add_double --> nfp_add_double
+FOC/CurrentController/Decoupling --> Decoupling
+FOC/CurrentController/IdController --> IdController
+FOC/CurrentController/IqController/nfp_add_single --> nfp_add_single
+FOC/CurrentController/IqController/nfp_mul_single --> nfp_mul_single
+FOC/CurrentController/IqController --> IqController
+FOC/CurrentController/nfp_sub_single --> nfp_sub_single
+FOC/CurrentController/nfp_sub_double --> nfp_sub_double
+FOC/CurrentController --> CurrentController
+FOC/VelocityController/PIDController --> PIDController
+FOC/VelocityController/nfp_convert_double2single --> nfp_convert_double2single
+FOC/VelocityController --> VelocityController
+FOC/abc2dq/Park Transform/0/nfp_gain_pow2_single --> nfp_gain_pow2_single
+FOC/abc2dq/Park Transform/0 --> alpha0
+FOC/abc2dq/Park Transform/d/nfp_sin_single --> nfp_sin_single
+FOC/abc2dq/Park Transform/d --> d
+FOC/abc2dq/Park Transform/q/nfp_cos_single --> nfp_cos_single
+FOC/abc2dq/Park Transform/q --> q
+FOC/abc2dq/Park Transform --> Park_Transform
+FOC/abc2dq --> abc2dq
+FOC/dq2abc/Inverse Park Transform/a --> a
+FOC/dq2abc/Inverse Park Transform/b --> b
+FOC/dq2abc/Inverse Park Transform/c --> c
+FOC/dq2abc/Inverse Park Transform --> Inverse_Park_Transform
+FOC/dq2abc --> dq2abc
+FOC/thm2the/nfp_gain_pow2_double --> nfp_gain_pow2_double
+FOC/thm2the/nfp_mod_single --> nfp_mod_single
+FOC/thm2the --> thm2the
+FOC/wm2we --> wm2we
+FOC --> FOC
